@@ -2,7 +2,7 @@
   "bin": {
     "sample2-1-0-0": "jdeploy-bundle/jdeploy.js"
   },
-  "author": "Wilke Briese",
+  "author": "",
   "description": "Parent for JavaFX starter project",
   "main": "index.js",
   "preferGlobal": true,
@@ -11,16 +11,16 @@
   "jdeploy": {
     "jdk": false,
     "javaVersion": "17",
-    "jar": "target\\sample-1.0.0.jar",
+    "jar": "target/classes/sample2-1.0.0.jar",
     "javafx": true,
-    "title": "sample"
+    "title": "sample2"
   },
   "dependencies": {
     "njre": "^0.2.0",
     "shelljs": "^0.8.4"
   },
   "license": "ISC",
-  "name": "sample",
+  "name": "sample2",
   "files": [
     "jdeploy-bundle"
   ],
